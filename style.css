@@ -186,3 +186,12 @@ header .right-links li {
     background-color: var(--blue-bg);
     color: var(--white-txt)
 }
+
+.footer {
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    color: var(--grey-txt);
+}
