@@ -78,7 +78,7 @@ header .right-links li {
     border: none;
 }
 
-.right {
+.hero .right {
     width: 500px;
     height: 225px;
     background-color:var(--grey-txt);
@@ -146,4 +146,43 @@ header .right-links li {
     margin: 0;
     padding: 0;
     font-weight: 700;
+}
+
+.sect-4 {
+    height: 450px;
+    margin: 0 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.action {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--blue-bg);
+    border-radius: 6px;
+    padding: 20px 100px;
+    justify-content: space-between;
+}
+
+.action .left h3 {
+    color: var(--white-txt);
+    margin-bottom: 0;
+}
+.action .left p {
+    color: var(--grey-txt);
+    margin-top: 0;
+}
+
+
+.action .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.action .right button {
+    padding: 5px 30px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: var(--blue-bg);
+    color: var(--white-txt)
 }
