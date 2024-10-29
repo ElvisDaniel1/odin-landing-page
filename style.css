@@ -29,6 +29,7 @@ header {
 header .left-links {
     font-size: 24px;
     color: var(--white-txt);
+    font-weight: 900;
 }
 
 header .right-links ul {
@@ -61,6 +62,7 @@ header .right-links li {
     font-weight: 900;
     padding: 0;
     margin: 0;
+    line-height: 1.2;
 }
 .hero .left p {
     color: var(--grey-txt);
@@ -78,9 +80,70 @@ header .right-links li {
 
 .right {
     width: 500px;
-    height: 250px;
+    height: 225px;
     background-color:var(--grey-txt);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sect-2 {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-2 h2 {
+    font-size: 36px;
+    color: var(--dark-bg);
+    font-weight: 900;
+}
+.sect-2 .info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sect-2 .card {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect-2 .info-container .img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid var(--blue-bg);
+    border-radius: 8px;
+} 
+.sect-2 .info-container p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.sect-3 {
+    height: 450px;
+    background-color: var(--grey-txt);
+    padding: 0 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sect-3 blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: var(--dark-bg);
+    margin: 0;
+    padding: 0;
+}
+.sect-3 .quoter {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.sect-3 .quoter p {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
 }
